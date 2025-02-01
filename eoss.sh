@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Sy openrgb fastfetch inxi discord steam telegram-desktop transmission-qt nvtop btop code mangohud ffmpeg obs-studio flatpak partitionmanager libva-nvidia-driver
+sudo pacman -Sy openrgb fastfetch inxi discord steam telegram-desktop transmission-qt nvtop btop code mangohud lib32-mangohud ffmpeg obs-studio flatpak partitionmanager libva-nvidia-driver
 yay -S coolercontrol-bin
 flatpak install flathub -y net.davidotek.pupgui2
 sudo systemctl enable --now coolercontrold
