@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #pacman
-sudo pacman -Sy fastfetch inxi discord steam telegram-desktop transmission-qt nvtop btop code mangohud lib32-mangohud ffmpeg obs-studio flatpak partitionmanager fish papirus-icon-theme imagemagick protonup-qt
+sudo pacman -Sy fastfetch inxi discord steam telegram-desktop transmission-qt nvtop btop code mangohud lib32-mangohud ffmpeg obs-studio flatpak partitionmanager fish papirus-icon-theme imagemagick protonup-qt htop
 #nvidia
 sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils nvidia-settings lib32-opencl-nvidia opencl-nvidia libxnvctrl lib32-vulkan-icd-loader libva-nvidia-driver
 sudo systemctl restart bluetooth
 
 #aur
-yay -S coolercontrol-bin && sudo systemctl enable --now coolercontrold
+yay -S coolercontrol-bin yandex-music && sudo systemctl enable --now coolercontrold
 
 #flatpak
 flatpak install flathub -y net.davidotek.pupgui2
