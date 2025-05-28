@@ -17,4 +17,4 @@ chmod 750 configurations.sh && ./configurations.sh
 
 git clone https://github.com/Bunnysword/KDE-Sword-Configuration.git
 cd KDE-Sword-Configuration/ && chmod 750 kdeswordtheme.sh && ./kdeswordtheme.sh
-#waybar hyprshot nftables hyprpolkitagent
+#waybar hyprshot nftables hyprpolkitagent ntfs-3g
