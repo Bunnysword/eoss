@@ -15,7 +15,7 @@ flatpak install flathub -y net.davidotek.pupgui2
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/configurations.sh
 chmod 750 configurations.sh && ./configurations.sh
 
-systemctl enable --now --user gpu-screen-recorder-ui
+#systemctl enable --now --user gpu-screen-recorder-ui
 git clone https://github.com/Bunnysword/KDE-Sword-Configuration.git
 cd KDE-Sword-Configuration/ && chmod 750 kdeswordtheme.sh && ./kdeswordtheme.sh
 #waybar hyprshot nftables hyprpolkitagent ntfs-3g
