@@ -4,7 +4,7 @@
 yay -Sy fastfetch inxi steam telegram-desktop transmission-qt nvtop btop code mangohud lib32-mangohud ffmpeg obs-studio flatpak partitionmanager fish papirus-icon-theme imagemagick htop ntfs3g noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra mpv
 #gpu-screen-recorder-ui
 #nvidia
-sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils nvidia-settings lib32-opencl-nvidia opencl-nvidia libxnvctrl lib32-vulkan-icd-loader libva-nvidia-driver
+sudo pacman -S nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings lib32-opencl-nvidia opencl-nvidia libxnvctrl lib32-vulkan-icd-loader libva-nvidia-driver
 
 #aur
 yay -S coolercontrol-bin protonup-qt && sudo systemctl enable --now coolercontrold
