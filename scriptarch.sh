@@ -13,7 +13,7 @@ sudo sed -i s/'#ru_RU.UTF-8'/'ru_RU.UTF-8'/g /etc/locale.gen
 sudo locale-gen && localectl set-locale LANG=ru_RU.UTF-8
 
 yay -Syu coolercontrol-bin protonup-qt kdeconnect dosfstools \
-fastfetch inxi nvtop btop htop ffmpeg fish ntfs3g flatpak mpv alsa-utils nftables \
+fastfetch inxi nvtop btop htop ffmpeg fish ntfs-3g flatpak mpv alsa-utils nftables \
 obs-studio steam telegram-desktop transmission-qt code mangohud lib32-mangohud partitionmanager \
 papirus-icon-theme imagemagick noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gpu-screen-recorder-ui 
 
