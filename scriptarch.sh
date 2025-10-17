@@ -37,7 +37,7 @@ Include = /etc/pacman.d/mirrorlist
 [extra]
 Include = /etc/pacman.d/mirrorlist
 
-'
+' /etc/pacman.conf 
 
 
 sudo pacman -Syu
