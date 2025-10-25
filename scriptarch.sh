@@ -49,15 +49,12 @@ sudo locale-gen && localectl set-locale LANG=ru_RU.UTF-8
 
 yay -Syu coolercontrol-bin protonup-qt kdeconnect dosfstools \
 fastfetch inxi nvtop btop htop ffmpeg fish ntfs-3g flatpak mpv alsa-utils nftables \
-steam transmission-qt code mangohud lib32-mangohud partitionmanager \
+steam transmission-qt code mangohud lib32-mangohud partitionmanager alhp-keyring alhp-mirrorlist \
 papirus-icon-theme imagemagick noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gpu-screen-recorder-ui 
 
 #nvidia
 sudo pacman -S nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings \
 lib32-opencl-nvidia opencl-nvidia libxnvctrl lib32-vulkan-icd-loader libva-nvidia-driver
-
-#flatpak
-flatpak install flathub -y net.davidotek.pupgui2
 
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/configurations.sh
 chmod 750 configurations.sh && ./configurations.sh
