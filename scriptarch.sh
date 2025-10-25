@@ -15,7 +15,7 @@ sudo locale-gen && localectl set-locale LANG=ru_RU.UTF-8
 
 yay -Syu coolercontrol-bin protonup-qt kdeconnect dosfstools \
 fastfetch inxi nvtop btop htop ffmpeg fish ntfs-3g flatpak mpv alsa-utils nftables \
-steam transmission-qt code mangohud lib32-mangohud partitionmanager alhp-keyring alhp-mirrorlist \
+steam transmission-qt code mangohud lib32-mangohud partitionmanager \
 papirus-icon-theme imagemagick noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gpu-screen-recorder-ui 
 
 #nvidia
@@ -31,5 +31,5 @@ sudo systemctl enable --now coolercontrold
 systemctl enable --now --user gpu-screen-recorder-ui
 
 
-
+#yay -S alhp-keyring alhp-mirrorlist
 #sudo cp pacman.conf /etc/
