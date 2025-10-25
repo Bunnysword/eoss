@@ -6,40 +6,6 @@ git clone https://aur.archlinux.org/yay-bin && cd yay-bin && makepkg -si
 sudo sed -i s/'#[multilib]'/'[multilib]'/g /etc/pacman.conf 
 sudo sed -i s/'#Include = /etc/pacman.d/mirrorlist'/'Include = /etc/pacman.d/mirrorlist'/g /etc/pacman.conf 
 
-sudo sed ' \
-[core-x86-64-v4]
-Include = /etc/pacman.d/alhp-mirrorlist
-
-[core]
-Include = /etc/pacman.d/mirrorlist
-
-[extra-x86-64-v4]
-Include = /etc/pacman.d/alhp-mirrorlist
-
-[extra]
-Include = /etc/pacman.d/mirrorlist
-
-[multilib-x86-64-v4]
-Include = /etc/pacman.d/alhp-mirrorlist
-
-[multilib]
-Include = /etc/pacman.d/mirrorlist
-
-#[core-testing]
-#Include = /etc/pacman.d/mirrorlist
-
-[core]
-Include = /etc/pacman.d/mirrorlist
-
-#[extra-testing]
-#Include = /etc/pacman.d/mirrorlist
-
-[extra]
-Include = /etc/pacman.d/mirrorlist
-
-' /etc/pacman.conf 
-
-
 sudo pacman -Syu
 
 #locale
