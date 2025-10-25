@@ -5,7 +5,7 @@ git clone https://aur.archlinux.org/yay-bin && cd yay-bin && makepkg -si
 #Multilib
 sudo sed -i s/'#[multilib]'/'[multilib]'/g /etc/pacman.conf 
 sudo sed -i s/'#Include = /etc/pacman.d/mirrorlist'/'Include = /etc/pacman.d/mirrorlist'/g /etc/pacman.conf 
-
+#sudo cp pacman.conf /etc/
 sudo pacman -Syu
 
 #locale
@@ -29,3 +29,7 @@ cd KDE-Sword-Configuration/ && chmod 750 kdeswordtheme.sh && ./kdeswordtheme.sh
 
 sudo systemctl enable --now coolercontrold
 systemctl enable --now --user gpu-screen-recorder-ui
+
+
+
+#sudo cp pacman.conf /etc/
