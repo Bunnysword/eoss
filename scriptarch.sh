@@ -3,9 +3,7 @@ sudo pacman -S git base-devel
 git clone https://aur.archlinux.org/yay-bin && cd yay-bin && makepkg -si
 
 #Multilib
-sudo sed -i s/'#[multilib]'/'[multilib]'/g /etc/pacman.conf 
-#####sudo sed -i s/'#Include = /etc/pacman.d/mirrorlist'/'Include = /etc/pacman.d/mirrorlist'/g /etc/pacman.conf ??? 
-#sudo cp pacman.conf /etc/
+sudo sed -i s/'#[multilib]'/'[multilib]'/g /etc/pacman.conf
 sudo pacman -Syu
 
 #locale
@@ -24,8 +22,6 @@ lib32-opencl-nvidia opencl-nvidia libxnvctrl lib32-vulkan-icd-loader libva-nvidi
 
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/configurations.sh
 chmod 750 configurations.sh && ./configurations.sh
-git clone https://github.com/Bunnysword/KDE-Sword-Configuration.git
-cd KDE-Sword-Configuration/ && chmod 750 kdeswordtheme.sh && ./kdeswordtheme.sh
 
 sudo systemctl enable --now coolercontrold
 systemctl enable --now --user gpu-screen-recorder-ui
