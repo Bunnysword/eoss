@@ -3,7 +3,7 @@ sudo pacman -S git base-devel
 git clone https://aur.archlinux.org/yay-bin && cd yay-bin && makepkg -si
 
 #Multilib
-sudo sed -i s/'#[multilib]'/'[multilib]'/g /etc/pacman.conf
+#sudo sed -i s/'#[multilib]'/'[multilib]'/g /etc/pacman.conf
 sudo pacman -Syu
 
 #locale
