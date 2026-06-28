@@ -17,7 +17,7 @@ steam transmission-qt code mangohud lib32-mangohud partitionmanager libva amd-uc
 papirus-icon-theme imagemagick noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gpu-screen-recorder-ui icu76 sunshine-bin firewalld
 
 #nvidia
-sudo pacman -S nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings \
+sudo pacman -S lib32-nvidia-utils nvidia-settings \
 lib32-opencl-nvidia opencl-nvidia libxnvctrl lib32-vulkan-icd-loader libva-nvidia-driver
 
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/configurations.sh
