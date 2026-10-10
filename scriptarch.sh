@@ -13,7 +13,7 @@ sudo locale-gen && localectl set-locale LANG=ru_RU.UTF-8
 
 yay -Syu coolercontrol-bin protonup-qt kdeconnect dosfstools rar  \
 fastfetch inxi nvtop btop htop ffmpeg fish ntfs-3g flatpak mpv alsa-utils nftables \
-steam transmission-qt code mangohud lib32-mangohud partitionmanager libva amd-ucode plasma6-wallpapers-smart-video-wallpaper-reborn zen-browser-bin \
+steam transmission-qt code mangohud lib32-mangohud partitionmanager libva amd-ucode plasma6-wallpapers-smart-video-wallpaper-reborn zen-browser-bin amneziavpn-bin \
 papirus-icon-theme imagemagick noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gpu-screen-recorder-ui icu76 sunshine-bin firewalld ark kate
 
 #nvidia
