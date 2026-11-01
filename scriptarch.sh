@@ -23,8 +23,8 @@ lib32-opencl-nvidia opencl-nvidia libxnvctrl lib32-vulkan-icd-loader libva-nvidi
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/configurations.sh
 chmod 750 configurations.sh && ./configurations.sh
 
-sudo systemctl enable --now coolercontrold
-systemctl enable --now --user gpu-screen-recorder-ui
+#sudo systemctl enable --now coolercontrold
+#systemctl enable --now --user gpu-screen-recorder-ui
 
 
 #yay -S alhp-keyring alhp-mirrorlist
